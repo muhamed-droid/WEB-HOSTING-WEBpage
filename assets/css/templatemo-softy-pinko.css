@@ -108,17 +108,17 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: rgb(230, 226, 209);
   font-family: "Raleway", sans-serif;
 }
 
 ::selection {
-  background: #ff589e;
+  background: #13652b;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff589e;
+  background: #13652b;
   color: #fff;
 }
 
@@ -314,9 +314,9 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #a9ffa4;
   text-transform: uppercase;
-  color: #fff;
+  color: #8261ee;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -325,16 +325,17 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #2b6805;
+  color: #fff;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #a9ffa4;
   text-transform: uppercase;
-  color: #fff;
+  color: #8261ee;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -343,7 +344,8 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #2b6805;
+  color: #fff;
 }
 
 button.main-button {
@@ -353,9 +355,9 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #a9ffa4;
   text-transform: uppercase;
-  color: #fff;
+  color: #8261ee;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -364,7 +366,8 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #2b6805;
+  color: #fff;
 }
 
 
@@ -560,7 +563,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #ff5858;
 }
 
 @media (max-width: 1200px) {
