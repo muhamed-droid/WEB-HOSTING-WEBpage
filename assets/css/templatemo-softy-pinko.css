@@ -451,7 +451,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #41df38;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -551,7 +551,7 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .header-area.header-sticky .nav {
@@ -563,7 +563,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff5858;
+  color: #41df38;
 }
 
 @media (max-width: 1200px) {
@@ -588,7 +588,6 @@ header
   }
   .header-area .logo {
     margin-top: 27px !important;
-    margin-left: 30px;
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -647,7 +646,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/host-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -772,7 +771,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #5c8145;
 }
 
 .features-small-item .icon {
@@ -786,7 +785,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #2b6805;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -800,7 +799,7 @@ features
 .features-small-item .features-title {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #1f1f1f;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
