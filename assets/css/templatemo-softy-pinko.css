@@ -108,7 +108,7 @@ global styles
 */
 html,
 body {
-  background: rgb(230, 226, 209);
+  background: rgb(210, 210, 210);
   font-family: "Raleway", sans-serif;
 }
 
@@ -1178,7 +1178,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: #777;
   letter-spacing: 0.25px;
 }
 
@@ -1217,7 +1217,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: #2b6805;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1260,7 +1260,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #8261ee;
+  background: #727272;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -1477,7 +1477,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #2b6805;
   color: #fff;
 }
 
