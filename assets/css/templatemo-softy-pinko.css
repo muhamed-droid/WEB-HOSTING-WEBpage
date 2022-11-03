@@ -1357,7 +1357,7 @@ blog
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #ff589e;
+  color: #134f1d;
 }
 
 .blog-post-thumb .text {
@@ -1448,7 +1448,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient(127deg, #1cab3b 0%, #11570e 91%);
   padding-top: 30px;
 }
 
@@ -1456,6 +1456,7 @@ footer .social {
   overflow: hidden;
   margin-top: 10px;
   text-align: center;
+  height: 72px;
 }
 
 footer .social li {
