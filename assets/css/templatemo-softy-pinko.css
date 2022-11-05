@@ -660,7 +660,7 @@ welcome
 .welcome-area .header-text {
   position: absolute;
   top: 50%;
-  transform: translateY(-55%);
+  transform: translateY(-48%);
   text-align: center;
   width: 100%;
 }
