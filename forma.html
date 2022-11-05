@@ -1,27 +1,24 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <title>Report a problem</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/forma.css">
-</head>
-<body>
-<div class="center">
-    <h1>Report a problem</h1>
-    <form action="index.html">
-      <div class="inputbox email">
-        <input type="text" required="required">
-        <span>Email</span>
-      </div>
-      <div id="description" class="inputbox">
-        <input type="text" required="required">
-        <span>Description</span>
-      </div>
-      <div id="button" class="inputbox">
+  </head>
+  <body>
+    <form action="/" class="decor">
+      <div class="form-left-decoration"></div>
+      <div class="form-right-decoration"></div>
+      <div class="circle"></div>
+      <div class="form-inner">
+        <h1>Report a problem</h1>
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message..." rows="5"></textarea>
         <a href="index.html">
-        <input type="button"   value="submit">
-        </a>
+          <input id="button" type="button"  value="submit">
+          </a>
       </div>
     </form>
-  </div>
   </body>
 </html>
